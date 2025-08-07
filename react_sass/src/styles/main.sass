@@ -1,9 +1,19 @@
-@use 'variables'
+// @use './variables'
 //não precisa adicionar a extensão pq ele já sabe q vc ta trabalhando com sass 
     //e como estão na mesma pasta styles, nn tem a necessidade
+    // use quando vc quiser fazer uma importação
+
+
+@use 'variables'
+
+* 
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+  font-family: variables.$font-stack
+
+body
+  background: variables.$background-color
+  min-height: 100vh
     
-    *
-    padding: 0
-    margin: 0
-    box-sizing: border-box
-    font-family: variables.fo
+    //tenha crtz que não tem espaço errado aqui

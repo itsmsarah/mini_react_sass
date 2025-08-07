@@ -1,13 +1,18 @@
 
-import'./styles/main.sass'
+import MainContent from './components/maincontent/maincontent'
+import SideBar from './components/sidebar/sidebar'
+import './styles/components/app.sass'
+
 
 function App() {
 
 
   return (
  
-      <div>
-        <h1>Beyonce</h1>
+      <div id='portfolio'>
+        <h1>Sarah Mendes </h1>
+        <SideBar/>
+        <MainContent/>
 
       </div>
   
