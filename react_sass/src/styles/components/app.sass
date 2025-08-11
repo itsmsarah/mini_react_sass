@@ -1,19 +1,21 @@
-// @use '../variables'
+@use '../variables'
 
-    //o tab é fundamental para o sass entender aonde vc quer estilizar
+    
+
 #portfolio
     display: flex
     flex-wrap: wrap
     padding: 3rem
     gap:3rem
 
-    h1
-        color: red   
+    h1  
         width: 100% 
         font-size: 5rem
         margin-bottom: 4rem
-
-    // fazer isso aqui acima, invés de fazer #portfolio h1{} no css    
+        background: variables.$gradient
+        -webkit-background-clip: text
+    // fazer isso aqui acima, invés de fazer #portfolio h1{} no css  
+          //o tab é fundamental para o sass entender aonde vc quer estilizar
 
 
 
